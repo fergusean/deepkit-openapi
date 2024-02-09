@@ -16,7 +16,7 @@ import { stringify } from "yaml";
 import { eventDispatcher } from "@deepkit/event";
 import send from "send";
 import { stat } from "fs/promises";
-import { OpenAPI } from "deepkit-openapi-core";
+import { OpenAPI } from "@signal24/deepkit-openapi-core";
 
 export class OpenAPIModule extends createModule({
   config: OpenAPIConfig,
@@ -86,7 +86,6 @@ export class OpenAPIModule extends createModule({
               ],
               layout: "StandaloneLayout"
             });
-    
           };
         `;
       }

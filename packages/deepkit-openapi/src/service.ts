@@ -3,8 +3,7 @@ import {
   HttpRouterFilterResolver
 } from "@deepkit/http";
 import { ScopedLogger } from "@deepkit/logger";
-import { OpenAPIDocument } from "deepkit-openapi-core";
-
+import { OpenAPIDocument } from "@signal24/deepkit-openapi-core";
 
 export class OpenAPIService {
   constructor(

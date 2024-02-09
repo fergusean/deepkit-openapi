@@ -8,6 +8,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf packages/deepkit-openapi-core/dist && rm -rf packages/deepkit-openapi/dist",
+    "build": "deepkit-type-install && yarn clean && yarn tsc",
+    "deploy": "yarn clean && yarn --frozen-lockfile && yarn build && npm publish -w @signal24/deepkit-openapi-core && npm publish -w @signal24/deepkit-openapi",
     "postinstall": "deepkit-type-install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc --build",

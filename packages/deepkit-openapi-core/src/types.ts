@@ -39,8 +39,8 @@ export const StringSchema: Schema = { __type: "schema", type: "string" };
 export const BooleanSchema: Schema = { __type: "schema", type: "boolean" };
 
 export type RequestMediaTypeName =
-  | "application/x-www-form-urlencoded"
-  | "multipart/form-data"
+  // | "application/x-www-form-urlencoded"
+  // | "multipart/form-data"
   | "application/json";
 
 export type Tag = {

@@ -91,8 +91,8 @@ export class ParametersResolver {
         this.requestBody = {
           content: {
             "application/json": { schema: bodySchema.result },
-            "application/x-www-form-urlencoded": { schema: bodySchema.result },
-            "multipart/form-data": { schema: bodySchema.result },
+            // "application/x-www-form-urlencoded": { schema: bodySchema.result },
+            // "multipart/form-data": { schema: bodySchema.result },
           },
           required: !parameter.parameter.isOptional(),
         };
