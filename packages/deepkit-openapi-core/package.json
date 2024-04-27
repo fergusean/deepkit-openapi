@@ -1,6 +1,6 @@
 {
   "name": "@signal24/deepkit-openapi-core",
-  "version": "0.0.4-patch.7",
+  "version": "0.0.4-patch.8",
   "description": "",
   "main": "./dist/cjs/index.js",
   "types": "./dist/cjs/index.d.ts",
